@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 2em; /* initially to visualize layout */
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    /*background-color: gold;*/
+    height: 100%; 
+    width: 100%;
+  }
+
+nav > ul, li {
+  text-decoration: none;
+  display: inline;
+  margin: 0; 
+  padding: 10px;
+  font-size: .75em;
+
+}
+
+blockquote, figcaption {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+
+} 
+
+cite {
+  font-size:medium;
+}
+
+.hero img {
+    width: 600px;
+
+} 
+  
+.random_info img {
+   width: 100px; height: 100px;
+   
+
+}
+
+  .item {
+    padding: 0;
+  
+}
+
+  .hero {
+    background-color:#eee;
+  }
+  
+  .random_info {
+    background-color: #ffffff;
+  }
+
+  .quote {
+    background-color: #e5e7eb;
+  }
+
+  .footer {
+    background-color: #ffffff;
+
+  }
